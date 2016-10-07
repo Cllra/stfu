@@ -488,6 +488,25 @@ body {
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
 
+header {
+  height: 450px;
+  background-color: #ccc; }
+  header h1 {
+    text-align: center;
+    font-size: 52px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase; }
+  header nav a {
+    text-align: right;
+    display: inline-block;
+    padding-left: 15px;
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase; }
+    header nav a:hover {
+      color: blue; }
+
 /**  Hier nur imports - nie klarcode - Struktur!
 *
 *
