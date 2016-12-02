@@ -499,7 +499,8 @@ header {
       height: 80px;
       width: 80px; }
   header .arrow_down {
-    text-align: center; }
+    text-align: center;
+    position: relative; }
     header .arrow_down img {
       height: 50px;
       width: 50px; }
@@ -566,6 +567,13 @@ footer {
     letter-spacing: 0.05em;
     line-height: 1px;
     color: black; }
+
+aboutme {
+  height: 100px;
+  background: blue; }
+
+infra {
+  background: blue; }
 
 /**  Hier nur imports - nie klarcode - Struktur!
 *
